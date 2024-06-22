@@ -1,13 +1,13 @@
-package com.spring.boot.restapiexceptionhandling;
+package com.spring.boot.restapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RestApiExceptionHandlingApplication {
+public class RestApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RestApiExceptionHandlingApplication.class, args);
+		SpringApplication.run(RestApiApplication.class, args);
 	}
 
 }

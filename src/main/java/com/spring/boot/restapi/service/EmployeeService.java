@@ -1,6 +1,6 @@
-package com.spring.boot.restapiexceptionhandling.service;
+package com.spring.boot.restapi.service;
 
-import com.spring.boot.restapiexceptionhandling.entity.Employee;
+import com.spring.boot.restapi.entity.Employee;
 
 public interface EmployeeService {
 

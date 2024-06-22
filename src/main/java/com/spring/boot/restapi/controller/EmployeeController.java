@@ -1,7 +1,7 @@
-package com.spring.boot.restapiexceptionhandling.controller;
+package com.spring.boot.restapi.controller;
 
-import com.spring.boot.restapiexceptionhandling.entity.Employee;
-import com.spring.boot.restapiexceptionhandling.service.EmployeeService;
+import com.spring.boot.restapi.entity.Employee;
+import com.spring.boot.restapi.service.EmployeeService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;

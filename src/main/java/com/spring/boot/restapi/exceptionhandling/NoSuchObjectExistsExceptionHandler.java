@@ -1,4 +1,4 @@
-package com.spring.boot.restapiexceptionhandling.exceptionhandling;
+package com.spring.boot.restapi.exceptionhandling;
 
 public class NoSuchObjectExistsExceptionHandler extends RuntimeException {
 

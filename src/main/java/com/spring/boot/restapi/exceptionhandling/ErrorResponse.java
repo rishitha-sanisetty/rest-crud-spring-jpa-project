@@ -1,4 +1,4 @@
-package com.spring.boot.restapiexceptionhandling.exceptionhandling;
+package com.spring.boot.restapi.exceptionhandling;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.spring.boot.restapiexceptionhandling.exceptionhandling;
+package com.spring.boot.restapi.exceptionhandling;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;

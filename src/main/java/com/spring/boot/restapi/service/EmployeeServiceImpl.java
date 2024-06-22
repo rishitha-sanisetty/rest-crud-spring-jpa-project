@@ -1,9 +1,9 @@
-package com.spring.boot.restapiexceptionhandling.service;
+package com.spring.boot.restapi.service;
 
-import com.spring.boot.restapiexceptionhandling.entity.Employee;
-import com.spring.boot.restapiexceptionhandling.exceptionhandling.NoSuchObjectExistsExceptionHandler;
-import com.spring.boot.restapiexceptionhandling.exceptionhandling.ObjectAlreadyExistsExceptionHandler;
-import com.spring.boot.restapiexceptionhandling.repository.EmployeeRepository;
+import com.spring.boot.restapi.entity.Employee;
+import com.spring.boot.restapi.exceptionhandling.NoSuchObjectExistsExceptionHandler;
+import com.spring.boot.restapi.exceptionhandling.ObjectAlreadyExistsExceptionHandler;
+import com.spring.boot.restapi.repository.EmployeeRepository;
 import org.springframework.stereotype.Service;
 import java.util.Optional;
 

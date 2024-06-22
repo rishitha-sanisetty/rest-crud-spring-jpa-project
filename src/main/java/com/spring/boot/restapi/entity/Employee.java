@@ -1,4 +1,4 @@
-package com.spring.boot.restapiexceptionhandling.entity;
+package com.spring.boot.restapi.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

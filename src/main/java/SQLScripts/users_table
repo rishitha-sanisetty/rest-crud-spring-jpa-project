@@ -1,0 +1,19 @@
+To create table using Mysql workbench
+CREATE TABLE `employee_database`.`users` (
+  `username` VARCHAR(50) NOT NULL,
+  `password` VARCHAR(50) NOT NULL,
+  `enabled` TINYINT NOT NULL,
+  PRIMARY KEY (`username`));
+
+
+To insert the values to above created table
+INSERT INTO `employee_database`.`users`
+(`username`,
+`password`,
+`enabled`)
+VALUES
+('Rishi', '{noop}test123', 1),
+('Hari', '{noop}test123', 1),
+('Mom', '{noop}test123', 1);
+
+Here noop represents no encrypt operation required.

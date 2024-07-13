@@ -26,28 +26,28 @@ public class EmployeeController {
 
     // http://localhost:8080/employees
     @PostMapping()
-    public ResponseEntity<Employee> addEmployee(@RequestBody Employee employee){
+    public ResponseEntity<Employee> addEmployee(@RequestBody Employee employee) throws Exception {
         return new ResponseEntity<Employee>(employeeService.addEmployee(employee), HttpStatus.CREATED);
     }
 
 
     // http://localhost:8080/employees/1
     @GetMapping("{id}")
-    public ResponseEntity<Employee> getEmployeeById(@PathVariable("id") long employeeId){
+    public ResponseEntity<Employee> getEmployeeById(@PathVariable("id") long employeeId) throws Exception {
         return new ResponseEntity<Employee>(employeeService.getEmployeeById(employeeId), HttpStatus.OK);
     }
 
 
     // http://localhost:8080/employees/1
     @PutMapping("{id}")
-    public ResponseEntity<Employee> updateEmployee(@PathVariable("id") long id, @RequestBody Employee employee){
+    public ResponseEntity<Employee> updateEmployee(@PathVariable("id") long id, @RequestBody Employee employee) throws Exception {
         return new ResponseEntity<Employee>(employeeService.updateEmployee(employee, id), HttpStatus.OK);
     }
 
 
     // http://localhost:8080/employees/1
     @DeleteMapping("{id}")
-    public ResponseEntity<String> deleteEmployee(@PathVariable("id") int id){
+    public ResponseEntity<String> deleteEmployee(@PathVariable("id") int id) throws Exception {
 
         // delete employee from DB
         employeeService.deleteEmployee(id);
